@@ -1,0 +1,20 @@
+/* Full height layout */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flex column layout */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content (form) area */
+main {
+  flex: 1; /* Takes available vertical space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 15px;
+}

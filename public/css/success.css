@@ -1,0 +1,23 @@
+
+        /* Styling and animation for the success message */
+        .success-text {
+            font-size: 3rem;
+            color: #000000;
+            text-align: center;
+            margin-top: 110px;
+            margin-bottom: 110px;
+            animation: pop 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        /* Keyframes for pop animation */
+        @keyframes pop {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
